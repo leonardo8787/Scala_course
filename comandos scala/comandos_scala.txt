@@ -1,0 +1,13 @@
+Para compilar:
+scalac (nome do arquivo).scala
+
+Para selecionar o diretório do arquivo .class:
+scalac -d classes (nome do arquivo).scala
+
+Executando:
+scala (nome do arquivo)
+
+Executando a partir de um diretório:
+scala -cp classes (nome do arquivo)
+
+
