@@ -1,5 +1,5 @@
 /*
-Aluno: Leonardo de Oliveira Campos
+Aluno: Leonardo de Oliveira Campos  -  Matrícula: 20203006159
 Centro Federal de Educação Tecnológica de Minas Gerais
 Engenharia de COmputação - 4° período
 
@@ -9,7 +9,8 @@ classificação da pessoa de acordo com a tabela a seguir. Resolva essa questão
 uma expressão if..else.
 */
 
-object Hello {
+
+object exercicio_4 {
   def main(args: Array[String]) = {
     println("Calculadora IMC")
     var altura = 2
@@ -18,13 +19,13 @@ object Hello {
     println("IMC = " + imc)
 
     if (imc == 18.5) {
-    	println("abaixo do peso")
+      println("abaixo do peso")
     } else if (imc > 18.5 || imc < 24.9) {
-    	println("peso normal")
+      println("peso normal")
     } else if (imc > 24.9 || imc < 30){
-    	println("sobrepeso")
+      println("sobrepeso")
     } else if (imc > 30){
-    	println("obesidade")
+      println("obesidade")
     }
   }
 }
