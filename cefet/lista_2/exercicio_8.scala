@@ -29,7 +29,8 @@ object exercicio_8 {
     var gostou2 = 0
     var gostouHomen = 0
     var gostouMulher = 0
-    var naoGostouHomen = 0
+    var gostou3 = 0
+    var resultado:Double = 0
     while(y<10){
       y+=1
       println("-----pesquisa----")
@@ -44,7 +45,7 @@ object exercicio_8 {
           gostouHomen += 1
         }else{
           gostou2 +=1
-          naoGostouHomen += 1
+          gostou3 +=1
         }
       } else {
         mulher += 1
@@ -58,9 +59,10 @@ object exercicio_8 {
         }
       }
     }
+    resultado = (gostou2*100/10)
     println("Pessoas que responderam 'sim': " + gostou)
     println("O número de pessoas que responderam 'não': " + gostou2 )
     println("O número de mulheres que responderam 'sim': " + gostouMulher)
-    println("A percentagem de homens que responderam não, entre todos os\nhomens analisados: " + naoGostouHomen/100 + "%")
+    println("A percentagem de homens que responderam não, entre todos os\nhomens analisados: " + resultado + "%")
   }
 }

@@ -11,18 +11,13 @@ Apresente um programa que calcule o valor de qualquer Hn.
 
 object exercicio_7 {
   def main(args: Array[String]) = {
-    var n = 0
-    println("Digite o valor limite: ")
-    n = StdIn.readInt()
-    var x = 0
-    var funcao = 1/x
-    var soma = 0
-    while (x <= n) {
-      x+=1;
-      funcao = (1/(1+x))
-      soma = soma + funcao
-      println(soma)
+    var x:Double = 0
+    var cont = 0
+    while (cont<=25) {
+      cont+=1
+      x += 1.0/cont
+      println(x)
     }
-    println(soma)
+    println(x)
   }
 }
