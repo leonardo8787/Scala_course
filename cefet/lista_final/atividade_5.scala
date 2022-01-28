@@ -1,18 +1,14 @@
+import scala.collection.mutable.ListBuffer
+// nome: Leonardo de Oliveira Campos - 20203006159
+
 object atividade_5 {
   def main(args: Array[String]):Unit = {
-    var x:List[Int] = List(1,2,3,4,5,6)
-    //funcao(numero1 = 1,numero2 =2)
-    filtrar(x:List[Int],funcao)
-    println(filtrar(x:List[Int],funcao))
-  }
-  def funcao(numero1: Int, numero2: Int): Int = {
-    numero1 + numero2
-  }
-  def filtrar(x:List[Int], funcao:(Int, Int)=>Int): Int = x match {
-    case Nil => 0
-    case x::xs => if(xs.nonEmpty){
-      funcao(x , xs.head) + filtrar(xs.tail,funcao)
-    }
-    else x + filtrar(xs.tail, funcao)
-  }
+    val lista:List[Int] = List(1,2,3,4);
+    val funcao=(x:Int)=>(x/2);
+    var teste=mapear(lista,funcao);
+    println(teste);}
+  def mapear(x:List[Int], funcao:(Int)=>Int) :Unit = {
+    val result = ListBuffer[Int]();
+    for(i <- 0 until x.size-1){result += funcao(x(i));
+      return result.toList}}
 }

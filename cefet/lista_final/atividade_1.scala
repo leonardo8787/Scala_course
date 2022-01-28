@@ -1,3 +1,5 @@
+// nome: Leonardo de Oliveira Campos - 20203006159
+
 import scala.io.StdIn
 
 object atividade_1 {
@@ -7,7 +9,6 @@ object atividade_1 {
     x = StdIn.readInt()
     divisor(x)
   }
-
   def divisor(x:Int): Unit = {
     var result = 0
     result = x

@@ -1,3 +1,5 @@
+// nome: Leonardo de Oliveira Campos - 20203006159
+
 object atividade_4 {
   def main(args: Array[String]) = {
     var x:List[Any] = List("ana",22,"joão",13,"marcos",25)

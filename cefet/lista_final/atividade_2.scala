@@ -1,3 +1,5 @@
+// nome: Leonardo de Oliveira Campos - 20203006159
+
 object atividade_2 {
   def main(args: Array[String]) = {
     var names = List("Joel", "Chris", "Leonardo")

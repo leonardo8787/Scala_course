@@ -1,7 +1,8 @@
+// nome: Leonardo de Oliveira Campos - 20203006159
+
 object atividade_6 {
   def main(args: Array[String]):Unit = {
     var x:List[Int] = List(1,2,3,4,5,6)
-    //funcao(numero1 = 1,numero2 =2)
     reduzir(x:List[Int],funcao)
     println(reduzir(x:List[Int],funcao))
   }
